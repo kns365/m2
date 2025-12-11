@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Mar 22 21:23:43 ICT 2023
+tomcat-embed-websocket-9.0.64-sources.jar>central=
+tomcat-embed-websocket-9.0.64.pom>central=
+tomcat-embed-websocket-9.0.64.jar>central=

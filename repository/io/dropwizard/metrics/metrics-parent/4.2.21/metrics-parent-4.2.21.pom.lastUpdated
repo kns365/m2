@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Jan 13 12:16:17 ICT 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1705122977452
+http\://10.148.108.26\:8081/repository/maven-public/.error=Could not transfer artifact io.dropwizard.metrics\:metrics-parent\:pom\:4.2.21 from/to maven-group (http\://10.148.108.26\:8081/repository/maven-public/)\: Transfer failed for http\://10.148.108.26\:8081/repository/maven-public/io/dropwizard/metrics/metrics-parent/4.2.21/metrics-parent-4.2.21.pom
+@default-maven-group-http\://10.148.108.26\:8081/repository/maven-public/.lastUpdated=1705122977330

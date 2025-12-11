@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Jan 13 12:33:00 ICT 2024
+http\://0.0.0.0/.error=Could not transfer artifact org.apache.tomcat.embed\:tomcat-embed-el\:jar\:9.0.82 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [maven-group (http\://10.148.108.26\:8081/repository/maven-public/, default, releases+snapshots)]
+https\://repo.maven.apache.org/maven2/.lastUpdated=1705123980806
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1705123978160

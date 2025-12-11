@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 30 14:28:32 ICT 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1714462112611
+https\://repo.spring.io/libs-milestone-local/.error=
+https\://repo.spring.io/libs-milestone-local/.lastUpdated=1714462110437
+@default-spring-releases-https\://repo.spring.io/release/.lastUpdated=1714462112483
+https\://repo.spring.io/release/.error=Could not transfer artifact com.google.api\:gax-bom\:pom\:1.35.1 from/to spring-releases (https\://repo.spring.io/release)\: Authentication failed for https\://repo.spring.io/release/com/google/api/gax-bom/1.35.1/gax-bom-1.35.1.pom 401 Unauthorized

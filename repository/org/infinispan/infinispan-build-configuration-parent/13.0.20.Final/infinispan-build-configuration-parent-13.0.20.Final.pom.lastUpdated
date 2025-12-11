@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Jan 13 12:16:59 ICT 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1705123019900
+http\://10.148.108.26\:8081/repository/maven-public/.error=Could not transfer artifact org.infinispan\:infinispan-build-configuration-parent\:pom\:13.0.20.Final from/to maven-group (http\://10.148.108.26\:8081/repository/maven-public/)\: Transfer failed for http\://10.148.108.26\:8081/repository/maven-public/org/infinispan/infinispan-build-configuration-parent/13.0.20.Final/infinispan-build-configuration-parent-13.0.20.Final.pom
+@default-maven-group-http\://10.148.108.26\:8081/repository/maven-public/.lastUpdated=1705123019782

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 11 14:10:08 ICT 2025
+https\://repo.maven.apache.org/maven2/.lastUpdated=1765436972094
+http\://0.0.0.0/.error=Could not transfer artifact commons-javaflow\:commons-javaflow\:jar\:20060411 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jasperreports (http\://jasperreports.sourceforge.net/maven2, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1765437008743
+https\://repo.maven.apache.org/maven2/.error=

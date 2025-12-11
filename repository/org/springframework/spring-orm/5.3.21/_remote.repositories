@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Mar 22 21:23:23 ICT 2023
+spring-orm-5.3.21-sources.jar>central=
+spring-orm-5.3.21.jar>central=
+spring-orm-5.3.21.pom>central=

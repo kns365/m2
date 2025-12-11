@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 06 21:14:05 ICT 2023
+springdoc-openapi-common-1.6.9.jar>central=
+springdoc-openapi-common-1.6.9.pom>central=
+springdoc-openapi-common-1.6.9-sources.jar>central=

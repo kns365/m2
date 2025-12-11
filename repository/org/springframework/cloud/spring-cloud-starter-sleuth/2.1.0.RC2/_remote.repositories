@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 30 14:42:23 ICT 2024
+spring-cloud-starter-sleuth-2.1.0.RC2.jar>spring-milestones=
+spring-cloud-starter-sleuth-2.1.0.RC2.pom>spring-milestones=

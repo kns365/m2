@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Jan 13 12:15:34 ICT 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1705122934935
+http\://10.148.108.26\:8081/repository/maven-public/.error=Could not transfer artifact org.springframework.boot\:spring-boot-dependencies\:pom\:2.7.17 from/to maven-group (http\://10.148.108.26\:8081/repository/maven-public/)\: Transfer failed for http\://10.148.108.26\:8081/repository/maven-public/org/springframework/boot/spring-boot-dependencies/2.7.17/spring-boot-dependencies-2.7.17.pom
+@default-maven-group-http\://10.148.108.26\:8081/repository/maven-public/.lastUpdated=1705122934650

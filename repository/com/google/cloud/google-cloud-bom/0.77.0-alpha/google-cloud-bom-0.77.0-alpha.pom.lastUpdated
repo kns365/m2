@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 30 14:28:29 ICT 2024
+https\://repo.maven.apache.org/maven2/.lastUpdated=1714462109406
+https\://repo.spring.io/libs-milestone-local/.error=
+https\://repo.spring.io/libs-milestone-local/.lastUpdated=1714462108171
+@default-spring-releases-https\://repo.spring.io/release/.lastUpdated=1714462109266
+https\://repo.spring.io/release/.error=Could not transfer artifact com.google.cloud\:google-cloud-bom\:pom\:0.77.0-alpha from/to spring-releases (https\://repo.spring.io/release)\: Authentication failed for https\://repo.spring.io/release/com/google/cloud/google-cloud-bom/0.77.0-alpha/google-cloud-bom-0.77.0-alpha.pom 401 Unauthorized
