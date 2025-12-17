@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.governator</groupId>
+  <artifactId>governator-archaius</artifactId>
+  <version>1.17.9</version>
+  <name>governator-archaius</name>
+  <description>governator-archaius</description>
+  <url>https://github.com/Netflix/governator</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>netflixgithub</id>
+      <name>Netflix Open Source Development</name>
+      <email>netflixoss@netflix.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/Netflix/governator.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.netflix.governator</groupId>
+      <artifactId>governator</artifactId>
+      <version>1.17.9</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.archaius</groupId>
+      <artifactId>archaius-core</artifactId>
+      <version>0.5.12</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>com.netflix.governator#governator-archaius;1.17.9</nebula_Implementation_Title>
+    <nebula_Implementation_Version>1.17.9</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>travis</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Date>2019-10-28_16:13:00</nebula_Build_Date>
+    <nebula_Gradle_Version>5.6.2</nebula_Gradle_Version>
+    <nebula_Module_Owner>netflixoss@netflix.com</nebula_Module_Owner>
+    <nebula_Module_Email>netflixoss@netflix.com</nebula_Module_Email>
+    <nebula_Module_Source>/governator-archaius</nebula_Module_Source>
+    <nebula_Module_Origin>https://github.com/Netflix/governator.git</nebula_Module_Origin>
+    <nebula_Change>e28f8ab</nebula_Change>
+    <nebula_Branch>e28f8ab3aac4a42795c3eb82f24bf9d819b4c340</nebula_Branch>
+    <nebula_Build_Host>travis-job-f67a324d-84d3-4ce3-b777-881febf75913</nebula_Build_Host>
+    <nebula_Build_Job>Netflix/governator</nebula_Build_Job>
+    <nebula_Build_Number>316</nebula_Build_Number>
+    <nebula_Build_Id>603987583</nebula_Build_Id>
+    <nebula_Created_By>1.8.0_222-8u222-b10-1ubuntu1~16.04.1-b10 (Private Build)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.8.0_222</nebula_Build_Java_Version>
+    <nebula_X_Compile_Target_JDK>1.8</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.8</nebula_X_Compile_Source_JDK>
+  </properties>
+</project>
