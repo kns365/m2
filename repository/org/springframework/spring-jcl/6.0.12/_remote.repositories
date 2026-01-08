@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 13 10:30:48 ICT 2023
+spring-jcl-6.0.12.jar>central=
+spring-jcl-6.0.12.pom>central=
+spring-jcl-6.0.12-sources.jar>central=

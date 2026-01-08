@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 07 09:03:35 ICT 2023
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1699322615800
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact io.takari.m2e.workspace\:org.eclipse.m2e.workspace.cli\:jar\:sources\:0.3.1 from/to central (https\://repo.maven.apache.org/maven2)\: Failed to connect to repo.maven.apache.org/151.101.76.215\:443

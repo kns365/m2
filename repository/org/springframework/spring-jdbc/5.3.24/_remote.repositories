@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed May 24 10:02:06 ICT 2023
+spring-jdbc-5.3.24.jar>central=
+spring-jdbc-5.3.24-sources.jar>central=
+spring-jdbc-5.3.24.pom>central=

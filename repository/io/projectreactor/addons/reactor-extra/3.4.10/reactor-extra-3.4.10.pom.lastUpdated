@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jan 08 10:23:16 ICT 2026
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1767842596456
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact io.projectreactor.addons\:reactor-extra\:pom\:3.4.10 from/to central (https\://repo.maven.apache.org/maven2)\: Transfer failed for https\://repo.maven.apache.org/maven2/io/projectreactor/addons/reactor-extra/3.4.10/reactor-extra-3.4.10.pom

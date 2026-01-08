@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jun 20 15:41:12 ICT 2023
+spring-aop-6.0.9.jar>central=
+spring-aop-6.0.9-sources.jar>central=
+spring-aop-6.0.9.pom>central=

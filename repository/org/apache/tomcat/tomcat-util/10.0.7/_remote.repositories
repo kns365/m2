@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 07 08:54:40 ICT 2023
+tomcat-util-10.0.7.jar>central=
+tomcat-util-10.0.7-sources.jar>central=
+tomcat-util-10.0.7.pom>central=

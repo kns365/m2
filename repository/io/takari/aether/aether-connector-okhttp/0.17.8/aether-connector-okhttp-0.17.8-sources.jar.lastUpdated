@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 07 09:04:16 ICT 2023
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1699322656726
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact io.takari.aether\:aether-connector-okhttp\:jar\:sources\:0.17.8 from/to central (https\://repo.maven.apache.org/maven2)\: Failed to connect to repo.maven.apache.org/151.101.76.215\:443

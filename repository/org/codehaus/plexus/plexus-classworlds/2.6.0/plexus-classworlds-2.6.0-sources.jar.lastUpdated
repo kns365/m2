@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 07 09:03:56 ICT 2023
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1699322636260
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.codehaus.plexus\:plexus-classworlds\:jar\:sources\:2.6.0 from/to central (https\://repo.maven.apache.org/maven2)\: Failed to connect to repo.maven.apache.org/151.101.76.215\:443
