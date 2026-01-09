@@ -23,13 +23,11 @@
         <java.version>17</java.version>
         <spring-cloud.version>2023.0.6</spring-cloud.version>
         <spring-boot-admin.version>3.2.3</spring-boot-admin.version>
-        <jpamodelgen.version>6.4.10.Final</jpamodelgen.version>
-        <lombok.version>1.18.34</lombok.version>
-        <jjwt.version>0.10.5</jjwt.version> <!--0.11.5-->
+        <jjwt.version>0.11.5</jjwt.version>
         <modelmapper.version>3.2.0</modelmapper.version>
-        <commons-lang3.version>3.17.0</commons-lang3.version>
         <springdoc-ui.version>2.5.0</springdoc-ui.version>
         <okhttp3.version>4.12.0</okhttp3.version>
+        <commons-lang3.version>3.17.0</commons-lang3.version>
     </properties>
 
     <dependencies>
@@ -117,7 +115,7 @@
         <dependency>
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-jpamodelgen</artifactId>
-            <version>${jpamodelgen.version}</version>
+            <version>${hibernate.version}</version>
         </dependency>
         <dependency>
             <groupId>jakarta.persistence</groupId>
@@ -163,17 +161,17 @@
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
-            <version>${okhttp3.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
         </dependency>
 
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>19.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-kafka</artifactId>
         </dependency>
 
     </dependencies>
@@ -206,7 +204,6 @@
     <!-- ================= BUILD ================= -->
     <build>
         <finalName>${project.artifactId}</finalName>
-        <!--        <directory>${buildDirectory}</directory>-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -220,7 +217,7 @@
                         <path>
                             <groupId>org.hibernate.orm</groupId>
                             <artifactId>hibernate-jpamodelgen</artifactId>
-                            <version>${jpamodelgen.version}</version>
+                            <version>${hibernate.version}</version>
                         </path>
                         <path>
                             <groupId>org.projectlombok</groupId>
@@ -230,30 +227,6 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
-            <!--<plugin>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>3.1.0</version>
-                <executions>
-                    <execution> &lt;!&ndash; Copy JAR to target &ndash;&gt;
-                        <id>copy-jar-to-target</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>${buildDirectory}</outputDirectory>
-                            <resources>
-                                <resource>
-                                    <directory>${project.build.directory}</directory>
-                                    <includes>
-                                        <include>${project.build.finalName}.jar</include>
-                                    </includes>
-                                </resource>
-                            </resources>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>-->
         </plugins>
     </build>
 </project>
