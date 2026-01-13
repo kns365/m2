@@ -50,7 +50,7 @@
             <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
 
-        <!-- Eureka client -->
+        <!-- ✅ Eureka client (Netflix OSS còn sống DUY NHẤT) -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
