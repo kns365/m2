@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Nov 11 16:16:15 ICT 2025
+#Wed Jan 14 16:25:38 ICT 2026
 spring-boot-2.7.18.pom>central=
+spring-boot-2.7.18-sources.jar>central=
 spring-boot-2.7.18.jar>central=

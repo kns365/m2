@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Feb 13 15:10:44 ICT 2025
+#Wed Jan 14 16:25:47 ICT 2026
 hibernate-jpamodelgen-5.6.15.Final.jar>central=
+hibernate-jpamodelgen-5.6.15.Final-sources.jar>central=
 hibernate-jpamodelgen-5.6.15.Final.pom>central=

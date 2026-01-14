@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Oct 29 16:13:22 ICT 2025
+#Wed Jan 14 16:25:35 ICT 2026
 poi-3.10-FINAL.jar>central=
+poi-3.10-FINAL-sources.jar>central=
 poi-3.10-FINAL.pom>central=
