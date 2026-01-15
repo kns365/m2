@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.tascalate</groupId>
+		<artifactId>net.tascalate.asmx.parent</artifactId>
+		<version>9.3.0</version>
+		<relativePath>../</relativePath>
+	</parent>
+
+	<artifactId>net.tascalate.asmx</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Tascalate ASMX / ASM</name>
+	<description>Tascalate ASMX, ObjectWeb ASM (shaded), a very small and fast Java bytecode manipulation framework</description>
+
+	<properties>
+		<bundle.name>net.tascalate.asmx</bundle.name>
+		<export.packages>net.tascalate.asmx;version="${asm.version}",net.tascalate.asmx.signature;version="${asm.version}"</export.packages>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>${asm.version}</version>
+			<scope>compile</scope>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.moditect</groupId>
+				<artifactId>moditect-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

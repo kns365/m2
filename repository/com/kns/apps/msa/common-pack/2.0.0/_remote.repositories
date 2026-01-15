@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jan 15 15:49:31 ICT 2026
+common-pack-2.0.0.jar>=
+common-pack-2.0.0.pom>=

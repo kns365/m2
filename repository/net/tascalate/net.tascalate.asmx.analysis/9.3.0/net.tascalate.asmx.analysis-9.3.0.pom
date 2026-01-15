@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.tascalate</groupId>
+		<artifactId>net.tascalate.asmx.parent</artifactId>
+		<version>9.3.0</version>
+		<relativePath>../</relativePath>
+	</parent>
+
+	<artifactId>net.tascalate.asmx.analysis</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Tascalate ASMX / ASM Analysis</name>
+	<description>Tascalate ASMX / Analysis, static code analysis API of ObjectWeb ASM (shaded), a very small and fast Java bytecode manipulation framework</description>
+
+	<properties>
+		<bundle.name>net.tascalate.asmx.tree.analysis</bundle.name>
+		<export.packages>net.tascalate.asmx.tree.analysis;version="${asm.current.version}";uses:="net.tascalate.asmx,net.tascalate.asmx.tree"</export.packages>
+		<import.packages>net.tascalate.asmx;version="[${asm.current.version},${asm.next.version})",net.tascalate.asmx.tree;version="[${asm.current.version},${asm.next.version})"</import.packages>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.tascalate</groupId>
+			<artifactId>net.tascalate.asmx.tree</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm-analysis</artifactId>
+			<version>${asm.version}</version>
+			<scope>compile</scope>
+			<optional>true</optional>
+			<exclusions>
+				<exclusion>
+					<groupId>org.ow2.asm</groupId>
+					<artifactId>asm-tree</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.moditect</groupId>
+				<artifactId>moditect-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<executions>
+					<execution>
+						<configuration>
+							<artifactSet>
+								<excludes>
+									<exclude>net.tascalate:net.tascalate.asmx</exclude>
+									<exclude>net.tascalate:net.tascalate.asmx.tree</exclude>
+								</excludes>
+							</artifactSet>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

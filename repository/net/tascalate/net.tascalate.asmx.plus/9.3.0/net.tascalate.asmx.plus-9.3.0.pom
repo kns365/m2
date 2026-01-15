@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.tascalate</groupId>
+		<artifactId>net.tascalate.asmx.parent</artifactId>
+		<version>9.3.0</version>
+		<relativePath>../</relativePath>
+	</parent>
+
+	<artifactId>net.tascalate.asmx.plus</artifactId>
+	<packaging>jar</packaging>
+
+	<name>Tascalate ASMX / ASM Plus</name>
+	<description>Tascalate ASMX, Tascalate API add-on for the ObjectWeb ASM (shaded), a very small and fast Java byte code manipulation framework</description>
+
+	<properties>
+		<bundle.name>net.tascalate.asmx.plus</bundle.name>
+		<export.packages>net.tascalate.asmx.plus;version="${asm.current.version}";uses:="net.tascalate.asmx"</export.packages>
+		<import.packages>net.tascalate.asmx;version="[${asm.current.version},${asm.next.version})"</import.packages>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.tascalate</groupId>
+			<artifactId>net.tascalate.asmx</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>default-compile</id>
+						<phase>compile</phase>
+					</execution> 
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.2.1</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.moditect</groupId>
+				<artifactId>moditect-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<executions>
+					<execution>
+						<configuration>
+							<artifactSet>
+								<excludes>
+									<exclude>net.tascalate:net.tascalate.asmx</exclude>
+								</excludes>
+							</artifactSet>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
