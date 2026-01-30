@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 30 15:02:22 ICT 2026
+spring-cloud-starter-circuitbreaker-reactor-resilience4j-3.1.5.pom>central=
+spring-cloud-starter-circuitbreaker-reactor-resilience4j-3.1.5.jar>central=
