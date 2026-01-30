@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Jan 13 12:15:34 ICT 2024
+#Thu Jan 29 15:14:41 ICT 2026
 spring-boot-dependencies-2.7.17.pom>central=
+spring-boot-dependencies-2.7.17.pom>nexus-repo=

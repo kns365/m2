@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Nov 11 16:16:15 ICT 2025
+#Thu Jan 29 13:07:22 ICT 2026
 spring-boot-starter-mail-2.7.18.jar>central=
+spring-boot-starter-mail-2.7.18.pom>nexus-repo=
+spring-boot-starter-mail-2.7.18.jar>nexus-repo=
 spring-boot-starter-mail-2.7.18.pom>central=

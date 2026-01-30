@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-netflix-turbine-stream</artifactId>
+  <versioning>
+    <release>2.2.9.RELEASE</release>
+    <versions>
+      <version>2.2.9.RELEASE</version>
+    </versions>
+    <lastUpdated>20260128112747</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jboss.spec.javax.annotation</groupId>
+  <artifactId>jboss-annotations-api_1.3_spec</artifactId>
+  <versioning>
+    <release>2.0.1.Final</release>
+    <versions>
+      <version>2.0.1.Final</version>
+    </versions>
+    <lastUpdated>20260128102534</lastUpdated>
+  </versioning>
+</metadata>

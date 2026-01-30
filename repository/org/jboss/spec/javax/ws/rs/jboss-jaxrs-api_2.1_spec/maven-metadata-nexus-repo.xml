@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jboss.spec.javax.ws.rs</groupId>
+  <artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
+  <versioning>
+    <release>2.0.1.Final</release>
+    <versions>
+      <version>2.0.1.Final</version>
+    </versions>
+    <lastUpdated>20260128102538</lastUpdated>
+  </versioning>
+</metadata>

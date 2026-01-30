@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jboss.spec.javax.xml.bind</groupId>
+  <artifactId>jboss-jaxb-api_2.3_spec-parent</artifactId>
+  <versioning>
+    <release>2.0.0.Final</release>
+    <versions>
+      <version>2.0.0.Final</version>
+    </versions>
+    <lastUpdated>20260128102542</lastUpdated>
+  </versioning>
+</metadata>

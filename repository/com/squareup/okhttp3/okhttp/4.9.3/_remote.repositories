@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Jan 16 08:30:46 ICT 2026
+#Thu Jan 29 13:07:21 ICT 2026
+okhttp-4.9.3.jar>nexus-repo=
 okhttp-4.9.3.pom>central=
+okhttp-4.9.3.pom>nexus-repo=
 okhttp-4.9.3.jar>central=

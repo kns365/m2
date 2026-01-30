@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Mar 14 22:00:07 ICT 2023
+#Thu Jan 29 13:07:21 ICT 2026
 byte-buddy-agent-1.12.23.pom>central=
 byte-buddy-agent-1.12.23-sources.jar>central=
+byte-buddy-agent-1.12.23.jar>nexus-repo=
+byte-buddy-agent-1.12.23.pom>nexus-repo=
 byte-buddy-agent-1.12.23.jar>central=

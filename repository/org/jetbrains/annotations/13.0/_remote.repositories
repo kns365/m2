@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:13:35 ICT 2023
+#Thu Jan 29 13:07:21 ICT 2026
+annotations-13.0.pom>nexus-repo=
 annotations-13.0-sources.jar>central=
 annotations-13.0.pom>central=
 annotations-13.0.jar>central=
+annotations-13.0.jar>nexus-repo=

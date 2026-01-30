@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.springframework.data</groupId>
+  <artifactId>spring-data-releasetrain</artifactId>
+  <versioning>
+    <release>Neumann-SR9</release>
+    <versions>
+      <version>Lovelace-SR10</version>
+      <version>Lovelace-SR3</version>
+      <version>Lovelace-SR4</version>
+      <version>Moore-SR4</version>
+      <version>Neumann-SR9</version>
+    </versions>
+    <lastUpdated>20260128113451</lastUpdated>
+  </versioning>
+</metadata>

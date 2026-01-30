@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jan 29 15:46:01 ICT 2026
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1769676361746
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.hibernate.orm\:hibernate-jpamodelgen\:pom\:5.6.15.Final from/to central (https\://repo.maven.apache.org/maven2)\: Transfer failed for https\://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-jpamodelgen/5.6.15.Final/hibernate-jpamodelgen-5.6.15.Final.pom

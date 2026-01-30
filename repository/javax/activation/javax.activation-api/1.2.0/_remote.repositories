@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 14 16:25:18 ICT 2026
+#Thu Jan 29 13:07:19 ICT 2026
 javax.activation-api-1.2.0.pom>central=
+javax.activation-api-1.2.0.pom>nexus-repo=
+javax.activation-api-1.2.0.jar>nexus-repo=
 javax.activation-api-1.2.0-sources.jar>central=
 javax.activation-api-1.2.0.jar>central=

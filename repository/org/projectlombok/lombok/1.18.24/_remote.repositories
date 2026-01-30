@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:13:01 ICT 2023
+#Thu Jan 29 13:07:24 ICT 2026
+lombok-1.18.24.jar>nexus-repo=
 lombok-1.18.24-sources.jar>central=
+lombok-1.18.24.pom>nexus-repo=
 lombok-1.18.24.jar>central=
 lombok-1.18.24.pom>central=

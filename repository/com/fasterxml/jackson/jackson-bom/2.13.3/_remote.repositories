@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Jan 29 15:00:23 ICT 2023
+#Thu Jan 29 13:07:12 ICT 2026
 jackson-bom-2.13.3.pom>central=
+jackson-bom-2.13.3.pom>nexus-repo=

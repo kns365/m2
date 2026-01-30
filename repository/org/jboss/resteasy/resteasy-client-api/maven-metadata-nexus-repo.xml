@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jboss.resteasy</groupId>
+  <artifactId>resteasy-client-api</artifactId>
+  <versioning>
+    <release>4.7.7.Final</release>
+    <versions>
+      <version>4.7.7.Final</version>
+    </versions>
+    <lastUpdated>20260128102456</lastUpdated>
+  </versioning>
+</metadata>

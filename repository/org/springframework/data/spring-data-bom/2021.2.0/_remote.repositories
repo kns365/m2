@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Jan 29 15:01:05 ICT 2023
+#Thu Jan 29 13:07:12 ICT 2026
 spring-data-bom-2021.2.0.pom>central=
+spring-data-bom-2021.2.0.pom>nexus-repo=

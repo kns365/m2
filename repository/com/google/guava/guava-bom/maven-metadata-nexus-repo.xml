@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.guava</groupId>
+  <artifactId>guava-bom</artifactId>
+  <versioning>
+    <release>30.1-android</release>
+    <versions>
+      <version>28.2-android</version>
+      <version>30.0-jre</version>
+      <version>30.1-android</version>
+    </versions>
+    <lastUpdated>20260128074350</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.apis</groupId>
+  <artifactId>google-api-services-cloudresourcemanager</artifactId>
+  <versioning>
+    <release>v1-rev20200210-1.30.9</release>
+    <versions>
+      <version>v1-rev20200210-1.30.9</version>
+    </versions>
+    <lastUpdated>20260128073633</lastUpdated>
+  </versioning>
+</metadata>

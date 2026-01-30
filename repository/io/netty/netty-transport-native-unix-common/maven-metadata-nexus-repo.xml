@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-transport-native-unix-common</artifactId>
+  <versioning>
+    <release>4.1.65.Final</release>
+    <versions>
+      <version>4.1.107.Final</version>
+      <version>4.1.111.Final</version>
+      <version>4.1.114.Final</version>
+      <version>4.1.115.Final</version>
+      <version>4.1.122.Final</version>
+      <version>4.1.52.Final</version>
+      <version>4.1.65.Final</version>
+    </versions>
+    <lastUpdated>20260128083007</lastUpdated>
+  </versioning>
+</metadata>

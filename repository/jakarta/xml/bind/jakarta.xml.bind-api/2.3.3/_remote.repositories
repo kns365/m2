@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:14:09 ICT 2023
+#Thu Jan 29 13:07:22 ICT 2026
 jakarta.xml.bind-api-2.3.3.jar>central=
+jakarta.xml.bind-api-2.3.3.jar>nexus-repo=
 jakarta.xml.bind-api-2.3.3.pom>central=
+jakarta.xml.bind-api-2.3.3.pom>nexus-repo=
 jakarta.xml.bind-api-2.3.3-sources.jar>central=

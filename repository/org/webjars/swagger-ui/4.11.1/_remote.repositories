@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Jan 29 15:15:00 ICT 2023
+#Thu Jan 29 13:07:22 ICT 2026
+swagger-ui-4.11.1.pom>nexus-repo=
 swagger-ui-4.11.1.jar>central=
 swagger-ui-4.11.1.pom>central=
+swagger-ui-4.11.1.jar>nexus-repo=

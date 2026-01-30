@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-amqp</artifactId>
+  <versioning>
+    <release>2.1.8.RELEASE</release>
+    <versions>
+      <version>2.1.8.RELEASE</version>
+    </versions>
+    <lastUpdated>20260128110220</lastUpdated>
+  </versioning>
+</metadata>

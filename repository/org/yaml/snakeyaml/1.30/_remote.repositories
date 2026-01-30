@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:14:57 ICT 2023
+#Thu Jan 29 13:07:22 ICT 2026
 snakeyaml-1.30.pom>central=
+snakeyaml-1.30.pom>nexus-repo=
 snakeyaml-1.30-sources.jar>central=
+snakeyaml-1.30.jar>nexus-repo=
 snakeyaml-1.30.jar>central=

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.projectreactor.netty</groupId>
+  <artifactId>reactor-netty</artifactId>
+  <versioning>
+    <release>0.9.20.RELEASE</release>
+    <versions>
+      <version>0.9.12.RELEASE</version>
+      <version>0.9.20.RELEASE</version>
+    </versions>
+    <lastUpdated>20260128083102</lastUpdated>
+  </versioning>
+</metadata>

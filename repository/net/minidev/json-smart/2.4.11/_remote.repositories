@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 14 16:25:17 ICT 2026
+#Thu Jan 29 13:07:21 ICT 2026
+json-smart-2.4.11.pom>nexus-repo=
 json-smart-2.4.11.pom>central=
 json-smart-2.4.11-sources.jar>central=
+json-smart-2.4.11.jar>nexus-repo=
 json-smart-2.4.11.jar>central=

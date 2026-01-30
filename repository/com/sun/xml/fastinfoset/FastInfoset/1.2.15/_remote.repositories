@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Oct 30 13:51:32 ICT 2025
-FastInfoset-1.2.15.pom>central=
+#Thu Jan 29 13:07:24 ICT 2026
 FastInfoset-1.2.15.jar>central=
+FastInfoset-1.2.15.pom>nexus-repo=
+FastInfoset-1.2.15.jar>nexus-repo=
+FastInfoset-1.2.15.pom>central=

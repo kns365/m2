@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Aug 27 15:44:42 ICT 2023
+#Thu Jan 29 08:08:28 ICT 2026
+maven-deploy-plugin-3.1.1.jar>nexus-repo=
+maven-deploy-plugin-3.1.1.pom>nexus-repo=
 maven-deploy-plugin-3.1.1.jar>central=
 maven-deploy-plugin-3.1.1.pom>central=

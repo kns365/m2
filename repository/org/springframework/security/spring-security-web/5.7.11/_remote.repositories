@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 14 16:25:20 ICT 2026
+#Thu Jan 29 13:07:22 ICT 2026
 spring-security-web-5.7.11.pom>central=
 spring-security-web-5.7.11-sources.jar>central=
+spring-security-web-5.7.11.jar>nexus-repo=
 spring-security-web-5.7.11.jar>central=
+spring-security-web-5.7.11.pom>nexus-repo=

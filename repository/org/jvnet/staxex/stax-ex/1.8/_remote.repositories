@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Oct 30 13:51:32 ICT 2025
-stax-ex-1.8.jar>central=
+#Thu Jan 29 13:07:24 ICT 2026
 stax-ex-1.8.pom>central=
+stax-ex-1.8.pom>nexus-repo=
+stax-ex-1.8.jar>nexus-repo=
+stax-ex-1.8.jar>central=

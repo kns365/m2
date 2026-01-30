@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.cloud</groupId>
+  <artifactId>google-cloud-firestore-bom</artifactId>
+  <versioning>
+    <release>2.1.0</release>
+    <versions>
+      <version>2.1.0</version>
+    </versions>
+    <lastUpdated>20260128073839</lastUpdated>
+  </versioning>
+</metadata>

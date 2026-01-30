@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:14:42 ICT 2023
+#Thu Jan 29 13:07:20 ICT 2026
+jakarta.persistence-api-2.2.3.jar>nexus-repo=
 jakarta.persistence-api-2.2.3.jar>central=
 jakarta.persistence-api-2.2.3.pom>central=
 jakarta.persistence-api-2.2.3-sources.jar>central=
+jakarta.persistence-api-2.2.3.pom>nexus-repo=

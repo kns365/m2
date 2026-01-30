@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-tcnative-parent</artifactId>
+  <versioning>
+    <release>2.0.39.Final</release>
+    <versions>
+      <version>2.0.39.Final</version>
+    </versions>
+    <lastUpdated>20260128082847</lastUpdated>
+  </versioning>
+</metadata>

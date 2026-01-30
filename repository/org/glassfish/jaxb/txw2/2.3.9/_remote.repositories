@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 14 16:25:39 ICT 2026
+#Thu Jan 29 13:07:19 ICT 2026
+txw2-2.3.9.jar>nexus-repo=
 txw2-2.3.9.jar>central=
 txw2-2.3.9-sources.jar>central=
 txw2-2.3.9.pom>central=
+txw2-2.3.9.pom>nexus-repo=

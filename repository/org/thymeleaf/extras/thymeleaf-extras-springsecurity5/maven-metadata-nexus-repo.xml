@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.thymeleaf.extras</groupId>
+  <artifactId>thymeleaf-extras-springsecurity5</artifactId>
+  <versioning>
+    <release>3.0.5.RELEASE</release>
+    <versions>
+      <version>3.0.4.RELEASE</version>
+      <version>3.0.5.RELEASE</version>
+    </versions>
+    <lastUpdated>20260128120348</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.thymeleaf.extras</groupId>
+  <artifactId>thymeleaf-extras-java8time</artifactId>
+  <versioning>
+    <release>3.0.4.RELEASE</release>
+    <versions>
+      <version>3.0.4.RELEASE</version>
+    </versions>
+    <lastUpdated>20260128120344</lastUpdated>
+  </versioning>
+</metadata>

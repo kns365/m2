@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:14:01 ICT 2023
+#Thu Jan 29 13:07:22 ICT 2026
+springdoc-openapi-webmvc-core-1.6.9.pom>nexus-repo=
 springdoc-openapi-webmvc-core-1.6.9-sources.jar>central=
 springdoc-openapi-webmvc-core-1.6.9.jar>central=
 springdoc-openapi-webmvc-core-1.6.9.pom>central=
+springdoc-openapi-webmvc-core-1.6.9.jar>nexus-repo=

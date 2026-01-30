@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:14:32 ICT 2023
+#Thu Jan 29 13:07:22 ICT 2026
 jakarta.activation-1.2.2.pom>central=
+jakarta.activation-1.2.2.jar>nexus-repo=
+jakarta.activation-1.2.2.pom>nexus-repo=
 jakarta.activation-1.2.2.jar>central=
 jakarta.activation-1.2.2-sources.jar>central=

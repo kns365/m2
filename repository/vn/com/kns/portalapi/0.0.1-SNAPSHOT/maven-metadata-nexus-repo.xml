@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>vn.com.kns</groupId>
+  <artifactId>portalapi</artifactId>
+  <versioning>
+    <lastUpdated>20260128121149</lastUpdated>
+    <snapshot>
+      <timestamp>20260128.121149</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20260128.121149-1</value>
+        <updated>20260128121149</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.1-SNAPSHOT</version>
+</metadata>

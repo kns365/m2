@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>javax.validation</groupId>
+  <artifactId>validation-api</artifactId>
+  <versioning>
+    <release>2.0.1.Final</release>
+    <versions>
+      <version>1.1.0.Final</version>
+      <version>2.0.1.Final</version>
+    </versions>
+    <lastUpdated>20260128084759</lastUpdated>
+  </versioning>
+</metadata>

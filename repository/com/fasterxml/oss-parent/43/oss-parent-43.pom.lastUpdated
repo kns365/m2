@@ -1,5 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Jan 29 15:00:27 ICT 2023
+#Thu Jan 29 13:06:54 ICT 2026
 https\://repo.maven.apache.org/maven2/.lastUpdated=1674979227469
 https\://repo.spring.io/milestone/.error=
 https\://repo.spring.io/milestone/.lastUpdated=1674979226906
+http\://10.12.0.10\:8085/repository/maven-public/.lastUpdated=1769666814215

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>kotlin-maven-plugin</name>
+      <prefix>kotlin</prefix>
+      <artifactId>kotlin-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>

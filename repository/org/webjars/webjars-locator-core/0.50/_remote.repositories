@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:12:59 ICT 2023
+#Thu Jan 29 13:07:22 ICT 2026
+webjars-locator-core-0.50.pom>nexus-repo=
+webjars-locator-core-0.50.jar>nexus-repo=
 webjars-locator-core-0.50.jar>central=
 webjars-locator-core-0.50.pom>central=
 webjars-locator-core-0.50-sources.jar>central=

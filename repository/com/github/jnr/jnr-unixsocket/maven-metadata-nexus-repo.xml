@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.jnr</groupId>
+  <artifactId>jnr-unixsocket</artifactId>
+  <versioning>
+    <release>0.38.5</release>
+    <versions>
+      <version>0.38.5</version>
+    </versions>
+    <lastUpdated>20260128073426</lastUpdated>
+  </versioning>
+</metadata>

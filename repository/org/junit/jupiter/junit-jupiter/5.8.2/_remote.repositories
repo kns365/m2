@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Mar 14 22:00:03 ICT 2023
+#Thu Jan 29 13:07:21 ICT 2026
 junit-jupiter-5.8.2.jar>central=
+junit-jupiter-5.8.2.pom>nexus-repo=
 junit-jupiter-5.8.2-sources.jar>central=
 junit-jupiter-5.8.2.pom>central=
+junit-jupiter-5.8.2.jar>nexus-repo=

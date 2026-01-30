@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.fasterxml.woodstox</groupId>
+  <artifactId>woodstox-core</artifactId>
+  <versioning>
+    <release>6.7.0</release>
+    <versions>
+      <version>5.0.3</version>
+      <version>6.2.1</version>
+      <version>6.2.3</version>
+      <version>6.4.0</version>
+      <version>6.5.1</version>
+      <version>6.7.0</version>
+    </versions>
+    <lastUpdated>20260128073313</lastUpdated>
+  </versioning>
+</metadata>

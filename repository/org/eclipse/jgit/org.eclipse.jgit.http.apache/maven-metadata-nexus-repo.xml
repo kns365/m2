@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.eclipse.jgit</groupId>
+  <artifactId>org.eclipse.jgit.http.apache</artifactId>
+  <versioning>
+    <release>6.6.1.202309021850-r</release>
+    <versions>
+      <version>5.1.3.201810200350-r</version>
+      <version>6.6.1.202309021850-r</version>
+    </versions>
+    <lastUpdated>20260128101309</lastUpdated>
+  </versioning>
+</metadata>

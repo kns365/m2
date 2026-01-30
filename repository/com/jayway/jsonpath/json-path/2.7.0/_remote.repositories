@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Mar 14 21:59:58 ICT 2023
+#Thu Jan 29 13:07:21 ICT 2026
+json-path-2.7.0.pom>nexus-repo=
 json-path-2.7.0-sources.jar>central=
 json-path-2.7.0.pom>central=
 json-path-2.7.0.jar>central=
+json-path-2.7.0.jar>nexus-repo=

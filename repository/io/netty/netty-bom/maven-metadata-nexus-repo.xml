@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.netty</groupId>
+  <artifactId>netty-bom</artifactId>
+  <versioning>
+    <release>4.1.97.Final</release>
+    <versions>
+      <version>4.1.100.Final</version>
+      <version>4.1.101.Final</version>
+      <version>4.1.105.Final</version>
+      <version>4.1.107.Final</version>
+      <version>4.1.109.Final</version>
+      <version>4.1.110.Final</version>
+      <version>4.1.111.Final</version>
+      <version>4.1.113.Final</version>
+      <version>4.1.115.Final</version>
+      <version>4.1.122.Final</version>
+      <version>4.1.31.Final</version>
+      <version>4.1.39.Final</version>
+      <version>4.1.45.Final</version>
+      <version>4.1.51.Final</version>
+      <version>4.1.59.Final</version>
+      <version>4.1.63.Final</version>
+      <version>4.1.65.Final</version>
+      <version>4.1.68.Final</version>
+      <version>4.1.69.Final</version>
+      <version>4.1.72.Final</version>
+      <version>4.1.77.Final</version>
+      <version>4.1.78.Final</version>
+      <version>4.1.85.Final</version>
+      <version>4.1.86.Final</version>
+      <version>4.1.89.Final</version>
+      <version>4.1.90.Final</version>
+      <version>4.1.91.Final</version>
+      <version>4.1.92.Final</version>
+      <version>4.1.97.Final</version>
+    </versions>
+    <lastUpdated>20260128082322</lastUpdated>
+  </versioning>
+</metadata>

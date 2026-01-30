@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 14 16:25:36 ICT 2026
+#Thu Jan 29 13:07:19 ICT 2026
 jaxb-api-2.3.1.jar>central=
+jaxb-api-2.3.1.pom>nexus-repo=
+jaxb-api-2.3.1.jar>nexus-repo=
 jaxb-api-2.3.1-sources.jar>central=
 jaxb-api-2.3.1.pom>central=

@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 14 16:25:45 ICT 2026
+#Thu Jan 29 13:07:20 ICT 2026
 jaxb-runtime-2.3.9-sources.jar>central=
 jaxb-runtime-2.3.9.pom>central=
+jaxb-runtime-2.3.9.pom>nexus-repo=
 jaxb-runtime-2.3.9.jar>central=
+jaxb-runtime-2.3.9.jar>nexus-repo=

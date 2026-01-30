@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.cloud</groupId>
+  <artifactId>google-cloud-errorreporting-bom</artifactId>
+  <versioning>
+    <release>0.120.9-beta</release>
+    <versions>
+      <version>0.120.9-beta</version>
+    </versions>
+    <lastUpdated>20260128073836</lastUpdated>
+  </versioning>
+</metadata>

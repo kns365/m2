@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.rest-assured</groupId>
+  <artifactId>rest-assured-bom</artifactId>
+  <versioning>
+    <release>5.5.5</release>
+    <versions>
+      <version>4.5.1</version>
+      <version>5.2.1</version>
+      <version>5.3.1</version>
+      <version>5.3.2</version>
+      <version>5.4.0</version>
+      <version>5.5.5</version>
+    </versions>
+    <lastUpdated>20260128083639</lastUpdated>
+  </versioning>
+</metadata>

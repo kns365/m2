@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Mar 06 21:14:51 ICT 2023
+#Thu Jan 29 13:07:21 ICT 2026
+okio-2.8.0.pom>nexus-repo=
 okio-2.8.0-sources.jar>central=
+okio-2.8.0.jar>nexus-repo=
 okio-2.8.0.pom>central=
 okio-2.8.0.jar>central=

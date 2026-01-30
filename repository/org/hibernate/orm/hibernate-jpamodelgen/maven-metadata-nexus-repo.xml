@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.hibernate.orm</groupId>
+  <artifactId>hibernate-jpamodelgen</artifactId>
+  <versioning>
+    <release>6.4.10.Final</release>
+    <versions>
+      <version>6.4.10.Final</version>
+    </versions>
+    <lastUpdated>20260128102037</lastUpdated>
+  </versioning>
+</metadata>

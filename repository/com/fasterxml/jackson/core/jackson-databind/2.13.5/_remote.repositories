@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Mar 14 21:59:45 ICT 2023
+#Thu Jan 29 13:07:22 ICT 2026
 jackson-databind-2.13.5.jar>central=
+jackson-databind-2.13.5.jar>nexus-repo=
+jackson-databind-2.13.5.pom>nexus-repo=
 jackson-databind-2.13.5.pom>central=
 jackson-databind-2.13.5-sources.jar>central=

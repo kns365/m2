@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.cloud</groupId>
+  <artifactId>google-cloud-bom</artifactId>
+  <versioning>
+    <release>0.77.0-alpha</release>
+    <versions>
+      <version>0.119.0-alpha</version>
+      <version>0.146.0</version>
+      <version>0.72.0-alpha</version>
+      <version>0.77.0-alpha</version>
+    </versions>
+    <lastUpdated>20260128073755</lastUpdated>
+  </versioning>
+</metadata>

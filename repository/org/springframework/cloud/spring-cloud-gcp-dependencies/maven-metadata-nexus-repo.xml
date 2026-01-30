@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-gcp-dependencies</artifactId>
+  <versioning>
+    <release>1.2.8.RELEASE</release>
+    <versions>
+      <version>1.1.0.RC1</version>
+      <version>1.1.0.RELEASE</version>
+      <version>1.2.1.RELEASE</version>
+      <version>1.2.8.RELEASE</version>
+    </versions>
+    <lastUpdated>20260128112337</lastUpdated>
+  </versioning>
+</metadata>

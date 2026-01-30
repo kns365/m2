@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <versioning>
+    <release>7.4.0</release>
+    <versions>
+      <version>6.13.1</version>
+      <version>7.4.0</version>
+    </versions>
+    <lastUpdated>20260128120338</lastUpdated>
+  </versioning>
+</metadata>

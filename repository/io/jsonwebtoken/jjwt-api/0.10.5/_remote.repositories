@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 14 16:25:28 ICT 2026
+#Thu Jan 29 13:07:19 ICT 2026
 jjwt-api-0.10.5.jar>central=
 jjwt-api-0.10.5-sources.jar>central=
+jjwt-api-0.10.5.pom>nexus-repo=
 jjwt-api-0.10.5.pom>central=
+jjwt-api-0.10.5.jar>nexus-repo=

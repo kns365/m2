@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Nov 11 16:15:34 ICT 2025
+#Thu Jan 29 13:06:53 ICT 2026
 metrics-bom-4.2.22.pom>central=
+metrics-bom-4.2.22.pom>nexus-repo=

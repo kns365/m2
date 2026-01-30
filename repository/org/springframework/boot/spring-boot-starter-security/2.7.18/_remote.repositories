@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 14 16:25:36 ICT 2026
+#Thu Jan 29 13:07:21 ICT 2026
 spring-boot-starter-security-2.7.18.pom>central=
+spring-boot-starter-security-2.7.18.jar>nexus-repo=
 spring-boot-starter-security-2.7.18-sources.jar>central=
 spring-boot-starter-security-2.7.18.jar>central=
+spring-boot-starter-security-2.7.18.pom>nexus-repo=

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.infinispan</groupId>
+  <artifactId>infinispan-build-configuration-parent</artifactId>
+  <versioning>
+    <release>15.2.4.Final</release>
+    <versions>
+      <version>11.0.15.Final</version>
+      <version>11.0.9.Final</version>
+      <version>12.1.10.Final</version>
+      <version>12.1.4.Final</version>
+      <version>12.1.7.Final</version>
+      <version>13.0.10.Final</version>
+      <version>13.0.12.Final</version>
+      <version>13.0.15.Final</version>
+      <version>13.0.18.Final</version>
+      <version>13.0.20.Final</version>
+      <version>14.0.14.Final</version>
+      <version>14.0.17.Final</version>
+      <version>14.0.2.Final</version>
+      <version>14.0.21.Final</version>
+      <version>14.0.27.Final</version>
+      <version>14.0.29.Final</version>
+      <version>14.0.31.Final</version>
+      <version>14.0.33.Final</version>
+      <version>14.0.6.Final</version>
+      <version>15.0.15.Final</version>
+      <version>15.0.4.Final</version>
+      <version>15.0.5.Final</version>
+      <version>15.0.8.Final</version>
+      <version>15.2.4.Final</version>
+    </versions>
+    <lastUpdated>20260128102303</lastUpdated>
+  </versioning>
+</metadata>

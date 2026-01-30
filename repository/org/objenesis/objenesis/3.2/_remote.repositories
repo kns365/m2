@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Mar 14 22:00:08 ICT 2023
+#Thu Jan 29 13:07:21 ICT 2026
 objenesis-3.2.pom>central=
+objenesis-3.2.pom>nexus-repo=
 objenesis-3.2-sources.jar>central=
 objenesis-3.2.jar>central=
+objenesis-3.2.jar>nexus-repo=

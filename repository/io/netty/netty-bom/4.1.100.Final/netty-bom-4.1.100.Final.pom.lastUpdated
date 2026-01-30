@@ -1,5 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Jan 13 12:18:04 ICT 2024
+#Thu Jan 29 15:14:42 ICT 2026
 https\://repo.maven.apache.org/maven2/.lastUpdated=1705123084601
 http\://10.148.108.26\:8081/repository/maven-public/.error=Could not transfer artifact io.netty\:netty-bom\:pom\:4.1.100.Final from/to maven-group (http\://10.148.108.26\:8081/repository/maven-public/)\: Transfer failed for http\://10.148.108.26\:8081/repository/maven-public/io/netty/netty-bom/4.1.100.Final/netty-bom-4.1.100.Final.pom
+http\://10.12.0.10\:8085/repository/maven-public/.lastUpdated=1769674482167
 @default-maven-group-http\://10.148.108.26\:8081/repository/maven-public/.lastUpdated=1705123084430

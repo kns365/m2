@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Mar 31 21:06:00 ICT 2023
+#Thu Jan 29 13:07:20 ICT 2026
 hibernate-core-5.6.15.Final-sources.jar>central=
 hibernate-core-5.6.15.Final.pom>central=
+hibernate-core-5.6.15.Final.jar>nexus-repo=
+hibernate-core-5.6.15.Final.pom>nexus-repo=
 hibernate-core-5.6.15.Final.jar>central=

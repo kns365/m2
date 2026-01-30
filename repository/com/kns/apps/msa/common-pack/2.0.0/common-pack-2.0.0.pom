@@ -26,7 +26,7 @@
         <jjwt.version>0.11.5</jjwt.version>
         <modelmapper.version>3.2.0</modelmapper.version>
         <springdoc-ui.version>2.5.0</springdoc-ui.version>
-        <okhttp3.version>4.12.0</okhttp3.version> <!--4.9.3 4.12.0-->
+        <okhttp3.version>4.12.0</okhttp3.version>
         <commons-lang3.version>3.17.0</commons-lang3.version>
     </properties>
 
@@ -163,11 +163,6 @@
             <artifactId>okhttp</artifactId>
             <version>${okhttp3.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.jetbrains.kotlin</groupId>-->
-<!--            <artifactId>kotlin-stdlib</artifactId>-->
-<!--            <version>1.9.25</version>-->
-<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.kafka</groupId>
@@ -187,6 +182,28 @@
         </dependency>
 
     </dependencies>
+
+    <!--<repositories>
+        <repository>
+            <id>nexus-repo</id>
+            <name>Sonatype Nexus Repository</name>
+            <url>http://10.12.0.10:8085/repository/maven-public/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus-repo</id>
+            <url>http://10.12.0.10:8085/repository/maven-public/</url>
+        </pluginRepository>
+    </pluginRepositories>-->
 
     <!-- ================= DEPENDENCY MANAGEMENT ================= -->
     <dependencyManagement>

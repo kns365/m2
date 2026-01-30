@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sun Jan 29 15:00:54 ICT 2023
+#Thu Jan 29 13:06:55 ICT 2026
 simpleclient_bom-0.15.0.pom>central=
+simpleclient_bom-0.15.0.pom>nexus-repo=

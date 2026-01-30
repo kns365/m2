@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>Apache Maven AntRun Plugin</name>
+      <prefix>antrun</prefix>
+      <artifactId>maven-antrun-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Maven Archetype Plugin</name>
+      <prefix>archetype</prefix>
+      <artifactId>maven-archetype-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Assembly Plugin</name>
+      <prefix>assembly</prefix>
+      <artifactId>maven-assembly-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Clean Plugin</name>
+      <prefix>clean</prefix>
+      <artifactId>maven-clean-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Compiler Plugin</name>
+      <prefix>compiler</prefix>
+      <artifactId>maven-compiler-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Dependency Plugin</name>
+      <prefix>dependency</prefix>
+      <artifactId>maven-dependency-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Deploy Plugin</name>
+      <prefix>deploy</prefix>
+      <artifactId>maven-deploy-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Enforcer Plugin</name>
+      <prefix>enforcer</prefix>
+      <artifactId>maven-enforcer-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Maven Failsafe Plugin</name>
+      <prefix>failsafe</prefix>
+      <artifactId>maven-failsafe-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Help Plugin</name>
+      <prefix>help</prefix>
+      <artifactId>maven-help-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Install Plugin</name>
+      <prefix>install</prefix>
+      <artifactId>maven-install-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Invoker Plugin</name>
+      <prefix>invoker</prefix>
+      <artifactId>maven-invoker-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven JAR Plugin</name>
+      <prefix>jar</prefix>
+      <artifactId>maven-jar-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Javadoc Plugin</name>
+      <prefix>javadoc</prefix>
+      <artifactId>maven-javadoc-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Maven Release Plugin</name>
+      <prefix>release</prefix>
+      <artifactId>maven-release-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Resources Plugin</name>
+      <prefix>resources</prefix>
+      <artifactId>maven-resources-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Shade Plugin</name>
+      <prefix>shade</prefix>
+      <artifactId>maven-shade-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Site Plugin</name>
+      <prefix>site</prefix>
+      <artifactId>maven-site-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven Source Plugin</name>
+      <prefix>source</prefix>
+      <artifactId>maven-source-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Maven Surefire Plugin</name>
+      <prefix>surefire</prefix>
+      <artifactId>maven-surefire-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Apache Maven WAR Plugin</name>
+      <prefix>war</prefix>
+      <artifactId>maven-war-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
