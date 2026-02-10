@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-function-parent</artifactId>
+    <version>5.0.1</version>
+  </parent>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-function-core</artifactId>
+  <version>5.0.1</version>
+  <name>Spring Cloud Function Core</name>
+  <description>Spring Cloud Function Core</description>
+  <url>https://github.com/spring-cloud/spring-cloud-function/spring-cloud-function-core</url>
+  <organization>
+    <name>Pivotal Software, Inc.</name>
+    <url>https://www.spring.io</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>olegz</id>
+      <name>Oleg Zhurakousky</name>
+      <email>oleg.zhurakousky at broadcom.com</email>
+      <organization>Broadcom, Inc.</organization>
+      <organizationUrl>https://www.spring.io</organizationUrl>
+      <roles>
+        <role>Project lead</role>
+      </roles>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/spring-cloud/spring-cloud-function.git/spring-cloud-function-core</connection>
+    <developerConnection>scm:git:ssh://git@github.com/spring-cloud/spring-cloud-function.git/spring-cloud-function-core</developerConnection>
+    <url>https://github.com/spring-cloud/spring-cloud-function/spring-cloud-function-core</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-core</artifactId>
+      <version>3.8.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>7.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 15 09:41:13 ICT 2025
+#Tue Feb 10 09:53:28 GMT+07:00 2026
 maven-deploy-plugin-3.1.4.jar>central=
+maven-deploy-plugin-3.1.4.pom>central=

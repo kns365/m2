@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion> 
+  <parent>
+    <groupId>tools.jackson</groupId>
+    <artifactId>jackson-base</artifactId>
+    <version>3.0.3</version>
+  </parent>
+  <groupId>tools.jackson.datatype</groupId>
+  <artifactId>jackson-datatype-joda</artifactId>
+  <name>Jackson datatype: Joda</name>
+  <version>3.0.3</version>
+  <packaging>jar</packaging>
+  <description>Add-on module for Jackson (http://github.com/FasterXML/jackson) to support
+Joda (https://www.joda.org/joda-time/) data types.
+  </description>
+  <url>http://github.com/FasterXML/jackson-datatype-joda</url>    
+  <scm>
+    <connection>scm:git:git@github.com:FasterXML/jackson-datatype-joda.git</connection>
+    <developerConnection>scm:git:git@github.com:FasterXML/jackson-datatype-joda.git</developerConnection>
+    <url>http://github.com/FasterXML/jackson-datatype-joda</url>    
+    <tag>jackson-datatype-joda-3.0.3</tag>
+  </scm>
+  <properties>
+    <!-- Generate PackageVersion.java into this directory. -->
+    <packageVersion.dir>tools/jackson/datatype/joda</packageVersion.dir>
+    <packageVersion.package>${project.groupId}.joda</packageVersion.package>
+
+    <!-- for Reproducible Builds -->
+    <project.build.outputTimestamp>2025-11-28T19:17:37Z</project.build.outputTimestamp>
+
+    <!-- to allow overriding Joda dep from CI -->
+    <!-- Baseline was 2.2 for Jackson 2.4: no new functionality used from laster
+         versions but gradually increasing baseline to get bugfixes etc
+
+         Jackson  2.9: Joda 2.7
+         Jackson 2.10: Joda 2.9[.9]
+         Jackson 2.12: Joda 2.10[.8]
+	 ...
+	    Jackson 3.0: Joda 2.12.7
+      -->
+    <version.joda>2.12.7</version.joda>
+
+    <!-- Configuration properties for the OSGi maven-bundle-plugin -->
+    <osgi.export>${project.groupId}.joda.*</osgi.export>
+    <osgi.versionpolicy>${range;[===,+);${@}}</osgi.versionpolicy>
+  </properties>
+
+  <dependencies>
+    <!-- Extends Jackson mapper; but also needs annotations slightly,
+         to support JsonFormat
+      -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>tools.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>tools.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+
+    <!-- And obviously also depends on Joda lib -->
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>${version.joda}</version>
+    </dependency>
+
+    <!-- Test dependencies -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <!-- Inherited from oss-base. Generate PackageVersion.java.-->
+        <groupId>com.google.code.maven-replacer-plugin</groupId>
+        <artifactId>replacer</artifactId>
+      </plugin>
+      <!-- 29-Apr-2025, tatu: SBOM generation [JSTEP-14] -->
+      <plugin>
+        <groupId>org.cyclonedx</groupId>
+        <artifactId>cyclonedx-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.gradlex</groupId>
+        <artifactId>gradle-module-metadata-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+  <!-- Alas, need to include snapshot reference since otherwise can not find
+       snapshot of parent... -->
+  <!-- 14-Jul-2022, tatu: Worse. We need both "new" and "old" Snapshot repositories
+       because "jackson-annotations" is published via "old"
+    -->
+  <repositories>
+    <!-- 13-May-2025, tatu: and now moving to Central Portal -->
+    <repository>
+      <id>central-snapshots</id>
+      <name>Sonatype Central Portal (snapshots)</name>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+      <releases><enabled>false</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+    <repository>
+      <id>sonatype-nexus-snapshots-old</id>
+      <name>Sonatype Nexus Snapshots (old)</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases><enabled>false</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+  </repositories>
+</project>
